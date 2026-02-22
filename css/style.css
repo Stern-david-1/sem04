@@ -108,6 +108,19 @@ ARTICLE
     color: black;
 }
 
+.symb{
+    border: 5px solid #D35400;
+    width: 210px;
+    height: 210px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
 .contenu .symb{
     color: #D35400;
     font-weight: bold;
@@ -149,5 +162,34 @@ FOOTER
 footer{
     height: 100px;
     background-color: #2980B9;
+    padding-top: 20px;
+}
+
+footer .wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer p{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+}
+
+footer .material-symbols-outlined{
+    color: black;
+    font-size: 2rem;
+    font-weight: 700px;
+    border: 2px solid #BDC3C7;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    font-size: 30px;
+    font-weight: bold;
 }
 
