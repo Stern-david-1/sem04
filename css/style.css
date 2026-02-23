@@ -127,11 +127,12 @@ ARTICLE
     font-size: 30px;
 }
 
+
 .contenu a{
     background-color: white;
 }
 
- a:hover{
+a article:hover{
     background-color: #BDC3C7;
 }
 
